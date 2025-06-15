@@ -4,15 +4,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build"
+    "build": "node build.js"
   },
   "dependencies": {
+    "vite": "^5.4.0",
     "@wix/sdk": "^1.15.23",
     "@wix/site": "^1.21.0",
     "@wix/site-seo": "^1.21.0",
     "@wix/site-stores": "^1.22.0",
-    "@wix/stores": "^1.0.468",
-    "vite": "^5.4.0"
+    "@wix/stores": "^1.0.468"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
