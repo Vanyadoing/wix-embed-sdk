@@ -1,20 +1,12 @@
 {
-  "name": "wix-embed-sdk",
-  "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build"
+    "build": "node build.mjs"
   },
   "dependencies": {
-    "vite": "^5.4.0",
-    "@wix/sdk": "^1.15.23",
-    "@wix/site": "^1.21.0",
-    "@wix/site-seo": "^1.21.0",
-    "@wix/site-stores": "^1.22.0",
-    "@wix/stores": "^1.0.468"
-  },
-  "devDependencies": {
-    "typescript": "^5.0.0"
+    "esbuild": "^0.20.0",
+    "@wix/sdk": "...",
+    "@wix/site": "...",
+    "@wix/site-seo": "..."
   }
 }
