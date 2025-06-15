@@ -7,12 +7,14 @@
     "build": "vite build"
   },
   "dependencies": {
-    "@wix/sdk": "^1.0.0",
+    "@wix/sdk": "^1.15.23",
     "@wix/site": "^1.21.0",
-    "@wix/site-seo": "^1.21.0"
+    "@wix/site-seo": "^1.21.0",
+    "@wix/site-stores": "^1.22.0",
+    "@wix/stores": "^1.0.468"
   },
   "devDependencies": {
-    "vite": "^5.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0"
   }
 }
