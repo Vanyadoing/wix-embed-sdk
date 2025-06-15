@@ -5,9 +5,16 @@ export default defineConfig({
     lib: {
       entry: 'src/embed.ts',
       formats: ['es'],
-      fileName: () => `main.js`,
+      fileName: () => `main.js`, // важный момент — без assets/
     },
     outDir: 'dist',
-    emptyOutDir: true
+    emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        // чтобы не создавало assets/ — всё положим в dist/
+        assetFileNames: '[name][extname]',
+        entryFileNames: 'main.js',
+      }
+    }
   }
 });
