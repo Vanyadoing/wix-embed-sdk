@@ -15,6 +15,7 @@ export default defineConfig({
         entryFileNames: 'main.js',
       }
     },
-    emptyOutDir: true
+    emptyOutDir: true,
+    ssr: true
   }
 });
