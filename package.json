@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "npx vite build"
   },
   "dependencies": {
     "@wix/sdk": "^1.15.23",
