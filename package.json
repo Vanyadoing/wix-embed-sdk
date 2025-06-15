@@ -1,0 +1,18 @@
+{
+  "name": "wix-embed-sdk",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@wix/sdk": "^1.0.0",
+    "@wix/site": "^1.21.0",
+    "@wix/site-seo": "^1.21.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "typescript": "^5.0.0"
+  }
+}
